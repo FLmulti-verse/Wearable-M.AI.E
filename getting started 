@@ -1,0 +1,33 @@
+Getting Started
+Thank you for your interest in contributing to Wearable-M.AI.E! We appreciate your help in making our project better. Here’s how you can get started:
+
+Clone the Repository:
+First, clone the repository to your local machine:
+git clone https://github.com/FLmulti-verse/Wearable-M.AI.E.git
+
+Install Dependencies:
+Navigate to the project directory:
+cd Wearable-M.AI.E
+
+Install the required dependencies (if any) using:
+pip install -r requirements.txt
+
+Set Up Azure AD:
+Create an Azure AD tenant (if you haven’t already).
+Obtain the client ID and secret.
+Update the config.yaml file with your Azure AD configuration.
+Train the Model:
+Use labeled seizure data to train the machine learning model.
+Save the trained model weights as model_weights.pth.
+Run the Backend:
+Start the backend server:
+python backend.py
+
+Access the User Interface:
+Open index.html in your web browser.
+Explore the real-time data visualization and seizure prediction features.
+Contributing
+We welcome contributions from developers, designers, and domain experts. If you’d like to contribute, please follow our contribution guidelines. Feel free to pick up any open issues or propose new features!
+
+License
+This project is licensed under the MIT License. See LICENSE for details.
